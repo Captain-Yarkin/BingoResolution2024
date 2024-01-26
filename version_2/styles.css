@@ -1,0 +1,199 @@
+/* styles.css */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+body { 
+    font-family: Arial, sans-serif; 
+}
+.bingo-board { 
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr); 
+    grid-gap: 10px; 
+    max-width: 500px; 
+    margin-top: 3px;
+    margin: auto; 
+    justify-content: center;
+    
+}
+.bingo-cell { 
+    background: #f7f7f7; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    text-align: center; 
+    cursor: pointer; 
+    justify-content: center;
+}
+
+.bingo-cell:hover { 
+    background: #eee; 
+}
+    
+
+.bingo-cell.completed { 
+    background: #aaffaa; }
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    padding: 0;
+}
+
+/* styles.css adjustments */
+nav {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 10px 0; /* Add some padding on top and bottom of the navbar */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 10px; /* Add some padding to the navbar items */
+    display: flex; /* Use flexbox to center the items */
+    justify-content: center; /* This will center the navbar items horizontally */
+    align-items: center; /* This will center the navbar items vertically */
+  }
+  
+  nav ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px; /* Add padding to make the links bigger and easier to click */
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Ensure that the rules container has padding */
+  .rules-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex; /* Make it a flex container */
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center children horizontally */
+    text-align: center; /* Center the text of direct children */
+  }
+  
+  /* If you're using a class */
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+ul {
+    list-style-type: none; /* This removes the bullet points */
+    padding: 0; /* This removes padding from the list, which browsers add by default */
+    margin: 0; /* Adjust margin as needed */
+  }
+
+
+  
+h3 {
+    color: #333;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    width: 100%; /* Full width */
+  }
+  
+p {
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+    width: 100%; /* Full width */
+  }
+
+/* If your date range is in an h2 tag, for example */
+h2.date-range {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0; /* This adds some space above and below the text */
+  }
+  
+  /* Or if it's in a div or paragraph */
+  .date-range {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0; /* Adjust padding as needed */
+  }
+
+#pointsCounter {
+    text-align: center; /* Center the text inside the div */
+    width: 100%; /* Ensure the div takes the full width to center correctly */
+    margin-top: 20px; /* Add some space above the points counter */
+    margin-bottom: 20px; /* Add some space below the points counter */
+    font-size: 1.5em; /* Increase the font size if needed */
+  }
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+
+  .content-wrapper {
+    display: flex; /* Use flexbox to lay out children side by side */
+    justify-content: space-between; /* Distribute space between and around content items */
+    align-items: flex-start; /* Align items to the start of the flex container */
+    padding: 20px; /* Add some padding around the content */
+}
+
+/* Add these styles */
+.friends-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.friends-list ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block; /* Center the list */
+}
+
+.friends-list li {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.friend-name:hover {
+  text-decoration: underline;
+}
+
+/* ... existing styles ... */
+
+
+  
+  /* If you're using a class */
